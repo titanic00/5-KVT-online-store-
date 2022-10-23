@@ -2255,6 +2255,10 @@ body::after {
   }
 }
 
+.main-block {
+  width: 100%;
+}
+
 .no-webp .main-block__inner{
   background: url("../img/main-block/background.jpg") right/cover no-repeat; }
 
