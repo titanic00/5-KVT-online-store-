@@ -2255,16 +2255,13 @@ body::after {
   }
 }
 
-.main-block {
-  width: 100%;
-}
-
 .no-webp .main-block__inner{
   background: url("../img/main-block/background.jpg") right/cover no-repeat; }
 
 .main-block__inner {
   display: -ms-grid;
   display: grid;
+  width: 100%;
   -ms-grid-columns: 20.3125rem 62.7845884413%;
   grid-template-columns: 20.3125rem 62.7845884413%;
   -webkit-column-gap: 0.9375rem;
