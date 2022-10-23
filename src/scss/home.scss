@@ -1,7 +1,6 @@
 //====================================================================================================
 
 .main-block {
-
     // .main-block__container
 
     &__container {}
@@ -11,6 +10,7 @@
     &__inner {
         background: url('@img/main-block/background.jpg') right / cover no-repeat;
         display: grid;
+        width: 100%;
         grid-template-columns: rem(325) percent(717, 1142);
         @include adaptiveValue("padding-left", 82, 20);
         @include adaptiveValue("padding-top", 82, 20);
